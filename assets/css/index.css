@@ -1,0 +1,136 @@
+body{
+	font-size: 0.8rem;
+	margin: 0px !important;
+	background-color:white;
+	/*text-align: center;*/
+	font-family: cursive;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	/*margin-top: 30px;*/
+	text-align: center !important;
+	
+
+}
+#create-task-container{
+	margin-left: 14vw;
+	margin-right: 14vw;
+	height:40%;
+	width: 70%;
+	background-color: white;
+	/*border:1.5px solid black;*/
+	margin-bottom: 10px;
+	border-radius: 10px;
+	/*box-shadow: 4px 4px 10px darkgrey;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: left;
+	/*background-color: pink;*/
+	
+}
+#create-task-container div{
+margin-bottom: 2px;
+/*border: 1px solid black;*/
+border-radius: 10px;
+background-color: pink;
+
+box-shadow: 4px 4px 10px darkgrey;
+text-align: center;
+
+}
+.border{
+	width: 90%;
+	margin: 10px;
+
+    border-style: solid !important;
+
+    border-width: 1px !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    overflow: visible;
+    border-image:none !important;
+    background-color: pink;
+    border-color: black !important;
+   
+
+}
+
+/*after clicking there wont be the affect of box in input area*/
+input:focus, textarea, button { 
+	outline: none ! important; 
+	background-color: pink;
+}
+.button{
+	color: white;
+	margin-top: 10px;
+	/*margin-left: 75%;*/
+	background-color: green;
+	border:none;
+	height: 30px;
+	width: 100px;
+	/*box-shadow: 2px 2px 0px darkgrey;*/
+	border-radius: 10px;
+}
+button:active {
+  	background: brown;
+ 	/*box-shadow: inset 0px 0px 5px #c1c1c1;*/
+   	outline: none;
+}
+#Show-task-container{
+	margin-left: 14vw;
+	margin-right: 14vw;
+	height:50%;
+	width: 70%;
+	background-color: white;
+	/*border:1.5px solid black;*/
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 10px darkgrey;
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	/* border: 2px solid royalblue; */
+
+
+}
+#Show-task-container ul{
+	list-style-type: none;
+
+}
+
+#task-container{
+	margin-top: 20px;
+	height:auto;
+	width:100%;
+	justify-content: space-between;
+	margin-top: 2px;
+	margin-bottom: 4px;
+	border-radius: 15px;
+	/* border: 2px solid black; */
+	background-color: mediumseagreen;
+	color: whitesmoke;
+	display: flex;
+	box-shadow: 4px 4px 10px darkgrey;
+	
+
+
+}
+.description{
+	margin-left: 5px;
+}
+.delete-button{
+	margin-top: 2%;
+	margin-right: 10px;
+	font-size: bolder;
+}
+
+/* .description{
+	background-color: mediumseagreen;
+	color: whitesmoke;
+} */
+
+
